@@ -26,7 +26,7 @@ public class User {
 	private String role;
 	private boolean enabled;
 	private String imageurl;
-	@Column(length = 500)
+	@Column(length = 200)
 	private String about;
 	
 	//relationships one to many
